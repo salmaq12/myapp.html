@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skin Care Tips</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #6a3000;
+    }
+
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 250px;
+      height: 100%;
+      background-color: #f9e8cd;
+      overflow-y: auto;
+      border-right: 1px solid #ccc;
+    }
+
+    header {
+      font-size: 1.5em;
+      font-weight: bold;
+      text-align: center;
+      padding: 20px 0;
+      color: black;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .nav-link {
+      display: block;
+      color: #333;
+      text-decoration: none;
+      padding: 10px 20px;
+      transition: background-color 0.3s;
+      font-size: 18px;
+    }
+
+    .nav-link:hover {
+      background-color: #c6af96;
+    }
+
+    main {
+      margin-left: 250px;
+      padding: 20px;
+      display: block;
+      background-color: #fff6f6;
+    }
+
+    .main-section {
+      margin-bottom: 40px;
+    }
+
+    .main-section[id] {
+      counter-reset: section;
+    }
+
+    .main-section header {
+      font-size: 2.3em;
+      font-weight: bold;
+      color: #d8b6b2;
+      margin-bottom: 15px;
+    }
+
+    .main-section p {
+      line-height: 1.6;
+      margin-bottom: 10px;
+      color: #7f5539;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Ar margin-left: 20px;
+    }
+
+    .tip {
+      font-weight: bold;
+      color: black;
+      font-size: 17px;
+    }
+
+    .main-section code {
+      background-color: #e7d8c9;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 4px;
+      font-weight: bold;
+      font-size: 13px;
+      display: block;
+    }
+
+    .main-section ul {
+      padding-left: 20px;
+      margin-bottom: 10px;
+    }
+
+    .main-section li {
+      margin-bottom: 5px;
+    }
+
+    @media (max-width: 768px) {
+      nav {
+        width: 100%;
+        height: auto;
+        position: relative;
+      }
+
+      main {
+        margin-left: 0;
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <nav id="navbar">
+    <header>Skin Care Tips</header>
+    <ul>
+      <li><a class="nav-link" href="#Cleansing">Cleansing</a></li>
+      <li><a class="nav-link" href="#Moisturizing">Moisturizing</a></li>
+      <li><a class="nav-link" href="#Exfoliation">Exfoliation</a></li>
+      <li><a class="nav-link" href="#Sun_Protection">Sun Protection</a></li>
+      <li><a class="nav-link" href="#Anti-Aging">Anti-Aging</a></li>
+    </ul>
+  </nav>
+
+  <main id="main-doc">
+    <section id="Cleansing" class="main-section">
+      <header>Cleansing</header>
+      <p>-Cleansing is a fundamental step in any skincare routine. It helps remove dirt, oil
+        clogged pores and breakouts.</p>
+      <p class="tip">When cleansing your face:</p>
+      <ol>
+        <li>Use a gentle cleanser suitable for your skin type (dry, oily, combination, sensi
+        <li>Wash your face twice daily, morning and evening, to maintain clean skin.</li>
+        <li>Avoid harsh soaps or cleansers that strip natural oils from your skin.</li>
+      </ol>
+      <code>Example: Proper way to cleanse your face.</code>
+    </section>
+
+    <section id="Moisturizing" class="main-section">
+      <header>Moisturizing</header>
+      <p>-Moisturizing is crucial for maintaining skin hydration and barrier function. It he
+        p>
+      <p class="tip">Key tips for moisturizing:</p>
+      <ol>
+        <li>Choose a moisturizer that matches your skin type (e.g., lightweight for oily ski
+        <li>Apply moisturizer after cleansing and toning, while the skin is still slightly d
+        <li>Use SPF-containing moisturizers during the day to protect against sun damage.</l </ol>
+          <code>Example: How to apply moisturizer for different skin types.</code>
+    </section>
+
+    <section id="Exfoliation" class="main-section">
+      <header>Exfoliation</header>
+      <p>-Exfoliation involves removing dead skin cells from the skin's surface, revealing s
+        skin texture and improve product absorption.</p>
+      <p class="tip">Tips for safe exfoliation:</p>
+      <ol>
+        <li>Exfoliate 1-3 times per week, depending on your skin type and sensitivity.</li>
+        <li>Choose between chemical (AHAs, BHAs) and physical (scrubs, brushes) exfoliants b
+        <li>Avoid over-exfoliating, which can lead to irritation and damage to the skin barr
+      </ol>
+      <code>Example: How to exfoliate correctly.</code>
+    </section>
+
+    <section id="Sun_Protection" class="main-section">
+      <header>Sun Protection</header>
+      <p>-Sun protection is essential to prevent premature aging, sunburns, and skin cancer.
+        dark spots, and other signs of aging.</p>
+      <p class="tip">Best practices for sun protection:</p>
+      <ol>
+        <li>Apply sunscreen with SPF 30 or higher every day, even on cloudy days.</li>
+        <li>Reapply sunscreen every 2 hours, or after swimming or sweating.</li>
+        <li>Wear protective clothing, hats, and sunglasses for added sun protection.</li>
+      </ol>
+      <code>Example: How to apply sunscreen correctly.</code>
+    </section>
+
+    <section id="Anti-Aging" class="main-section">
+      <header>Anti-Aging</header>
+      <p>-Anti-aging skincare aims to reduce the appearance of wrinkles, fine lines, and oth
+        stimulation, and protecting the skin from environmental damage.</p>
+      <p class="tip">Tips for effective anti-aging skincare:</p>
+      <ol>
+        <li>Include products with retinoids, vitamin C, and peptides in your skincare routin
+        <li>Avoid smoking and excessive sun exposure, which accelerate skin aging.</li>
+        <li>Stay hydrated and maintain a balanced diet rich in antioxidants and essential nu
+      </ol>
+      <code>Example: Anti-aging skincare routine.</code>
+    </section>
+  </main>
+
+  <script src="scripts.js"></script>
+</body>
+
+</html>
